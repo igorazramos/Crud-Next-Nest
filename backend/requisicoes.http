@@ -1,0 +1,11 @@
+GET http://localhost:3001/produtos
+
+###
+POST http://localhost:3001/produtos
+Content-Type: application/json
+
+{
+    "nome": "Notebook",
+    "descricao": "Notebook Dell Inspirion 15 3000",
+    "preco": 3500.00
+}
